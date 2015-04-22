@@ -14,6 +14,6 @@
 
 ### 附加约束
 
-1. `.status-*` 可以通过 js 添加 / 删除, 而 `.mod-*` 应该为不变的. 不过可以在 css 内建立 `.status-*` 与 `.mod-*` 的对应关系.
-2. `.part-*` 在 component 嵌套的时候有可能出现重复, 如有必要, 应使用子选择器 (`E > F`) 代替后代选择器 (`E F`).
-3. `[data-scop]` 与 `[data-id]` 应设计为 JavaScript 友好的.
+1. `.status-*` 可以通过 js 添加 / 删除, 而 `.mod-*` 应为不变的. 可以在 css 内建立 `.status-*` 与 `.mod-*` 的对应关系.
+2. `.part-*` 在 component 嵌套时可能出现重复, 如有必要, 应使用子选择器 (`E > F`) 代替后代选择器 (`E F`).
+3. `[data-scope]` 与 `[data-id]` 应设计为 JavaScript 友好的.
